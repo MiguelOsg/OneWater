@@ -1,0 +1,92 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #121212;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo {
+    width: 150px;
+}
+
+.dashboard-section {
+    padding: 20px;
+}
+
+.clientes-container {
+    display: flex;
+    flex-wrap: wrap; /* Permite que las tarjetas se envuelvan en varias filas */
+    gap: 20px; /* Espacio entre las tarjetas */
+}
+
+.cliente-card {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    width: calc(33.333% - 20px); /* Ajuste para tres tarjetas por fila */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box; /* Asegura que el padding no afecte el ancho total */
+    transition: transform 0.2s, box-shadow 0.2s; /* Efecto de transición */
+}
+
+.cliente-card:hover {
+    transform: translateY(-5px); /* Levanta la tarjeta al pasar el mouse */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+h3 {
+    color: #333;
+}
+
+strong {
+    color: #555;
+}
+
+.actions {
+    margin-top: 10px;
+}
+
+.actions a {
+    display: inline-block;
+    padding: 8px 12px;
+    margin-right: 10px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #121212; /* Color de fondo del botón */
+    transition: background-color 0.3s, transform 0.3s; /* Transición para el hover */
+}
+
+.actions a:hover {
+    background-color: #121212; /* Color de fondo en hover */
+    transform: translateY(-2px); /* Levanta el botón al pasar el mouse */
+}
+
+.tarjetas {
+    margin-top: 15px;
+}
+
+.tarjetas h4 {
+    margin: 5px 0;
+    color: #555;
+}
+
+.tarjetas ul {
+    list-style: none; /* Elimina los puntos de la lista */
+    padding: 0; /* Elimina el padding de la lista */
+}
+
+.tarjetas li {
+    background-color: #f0f8ff; /* Color de fondo para las tarjetas de usuario */
+    border-radius: 4px;
+    padding: 8px;
+    margin: 5px 0;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}

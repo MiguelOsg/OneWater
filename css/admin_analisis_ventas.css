@@ -1,0 +1,59 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #121212;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo {
+    max-width: 150px; /* Ajuste del tamaño del logo */
+}
+
+.sales-analysis {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.data-section {
+    display: flex; /* Cambia a flex para alinear los elementos horizontalmente */
+    justify-content: center; /* Centrar el contenido */
+    align-items: center; /* Alinear verticalmente */
+    width: 100%;
+    flex-wrap: wrap; /* Permitir que los elementos se envuelvan en pantallas más pequeñas */
+}
+
+.data-card {
+    background-color: #f0f4f8;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 20px; /* Aumentar el margen para que haya espacio entre las tarjetas */
+    width: 300px; /* Definir un ancho fijo para las tarjetas */
+    text-align: center;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.05);
+}
+
+.data-card h3 {
+    margin: 0 0 10px; /* Espaciado entre el título y el contenido */
+}
+
+.data-card p {
+    font-size: 18px; /* Tamaño de fuente para el contenido */
+}
+
+/* Ajustes adicionales si es necesario */
+@media (max-width: 600px) {
+    .data-card {
+        width: 90%; /* Hacer las tarjetas más anchas en pantallas pequeñas */
+    }
+}

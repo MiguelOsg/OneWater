@@ -1,0 +1,89 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #121212;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo {
+    max-width: 150px;
+}
+
+.tarjetas-info {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.tarjetas-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tarjeta {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.tarjeta p {
+    color: #333;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.tarjeta strong {
+    font-weight: 600;
+}
+
+input[type="text"] {
+    width: calc(100% - 10px);
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+button {
+    background-color: #121212; /* Color de fondo del botón */
+    color: white; /* Color del texto */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 10px 15px; /* Espaciado interno */
+    font-size: 14px; /* Tamaño de fuente */
+    cursor: pointer; /* Cambiar cursor al pasar el mouse */
+    transition: background-color 0.3s; /* Transición suave para el color */
+    margin: 5px; /* Espaciado entre botones */
+}
+
+button:hover {
+    background-color: #121212; /* Color de fondo al pasar el mouse */
+}
+
+button:focus {
+    outline: none; /* Sin borde al estar enfocado */
+}
+
+/* Estilo para formularios */
+form {
+    display: flex;
+    flex-direction: column; /* Disposición vertical de los campos */
+}

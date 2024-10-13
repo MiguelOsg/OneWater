@@ -1,0 +1,115 @@
+/* Estilos generales */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Evita el desbordamiento horizontal */
+}
+
+/* Encabezado */
+header {
+    background-color: #fff; /* Fondo blanco para el encabezado */
+    padding: 10px 20px; /* Espaciado en el encabezado */
+    text-align: center; /* Centrar el logo */
+}
+
+
+/* Logo */
+.logo {
+    max-width: 5%; /* Asegurarse de que el logo no sobresalga */
+    height: auto;
+}
+
+/* Imagen de fondo */
+.hero-image {
+    position: relative; /* Para poder posicionar elementos dentro */
+}
+
+
+
+/* Icono de menú de hamburguesa */
+.menu-icon {
+    position: absolute; /* Posicionamiento en la esquina superior izquierda */
+    top: 20px; /* Ajustar según sea necesario */
+    left: 20px; /* Ajustar según sea necesario */
+    font-size: 24px; /* Tamaño del ícono */
+    cursor: pointer; /* Cambiar el cursor al pasar por encima */
+}
+
+/* Sección de contenido principal */
+.content {
+    padding: 20px; /* Espaciado interno */
+    text-align: center; /* Centrar texto */
+}
+
+/* Estilos para la sección de características */
+.features {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 20px 0;
+    flex-wrap: wrap; /* Permitir que los elementos se ajusten en pantallas pequeñas */
+}
+
+.feature {
+    text-align: center;
+    margin: 10px;
+    flex: 1 1 200px; /* Flexibilidad de los íconos */
+}
+
+.feature-icon {
+    width: 170px; /* Ajustar el tamaño del ícono */
+    height: auto;
+}
+
+.feature p {
+    margin-top: 10px;
+    font-weight: 600; /* Negrita para el texto */
+    color: black; /* Cambia el color según tu diseño */
+}
+
+/* Tarjeta de producto */
+.card {
+    overflow: hidden; /* Oculta cualquier desbordamiento */
+    margin: 20px auto; /* Centrar la tarjeta */
+    max-width: 1100px; /* Ancho máximo de la tarjeta */
+    text-align: center; /* Centrar texto dentro de la tarjeta */
+    transition: box-shadow 0.3s; /* Efecto de sombra al pasar el ratón */
+}
+
+.card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Efecto de sombra al pasar el ratón */
+}
+
+.imagen-card {
+    width: 100%; /* Asegura que la imagen ocupe todo el ancho de la tarjeta */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+
+
+.ver-mas:hover {
+    background-color: #0056b3; /* Color al pasar el ratón */
+}
+
+/* Pie de página */
+footer {
+    background-color: #f1f1f1; /* Color de fondo del pie de página */
+    text-align: center; /* Centrar texto */
+    padding: 10px 0; /* Espaciado en el pie de página */
+}
+
+/* Responsividad */
+@media (max-width: 600px) {
+    .features {
+        flex-direction: column; /* Apilar los iconos en pantallas pequeñas */
+    }
+
+    .menu-icon {
+        font-size: 20px; /* Ajustar tamaño del ícono en móviles */
+    }
+
+    .card {
+        max-width: 90%; /* Ajustar el ancho máximo de la tarjeta en móviles */
+    }
+}

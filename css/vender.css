@@ -1,0 +1,105 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+    background-color: #f4f4f4;
+    cursor: pointer;
+}
+
+.logo {
+    max-width: 5%; /* Asegurarse de que el logo no sobresalga */
+    height: auto;
+}
+
+/* Estilos para la sección principal */
+.content {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+/* Estilo para la tarjeta del producto */
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 40%;
+    margin-right: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.imagen-card {
+    width: 140%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.card h3 {
+    margin: 0;
+    font-weight: 600;
+}
+
+.card p {
+    color: #555;
+}
+
+/* Barra lateral derecha */
+.sidebar {
+    width: 300px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.sidebar h3 {
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.sidebar p {
+    font-size: 20px;
+    color: #222;
+}
+
+/* Estilo para la selección de tarjeta */
+.sidebar select {
+    width: 99%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+/* Estilo para el botón de compra */
+.sidebar button {
+    background-color: #121212;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* Estilo para el input de cantidad */
+.sidebar input[type="number"] {
+    width: 92%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
